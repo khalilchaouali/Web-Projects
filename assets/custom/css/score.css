@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+
+#vt, #rainbow, #stencil, #cloud, #fourth, #face {
+  text-align: center;
+}
+
+#vt {
+  font-family: 'VT323', monospace;
+  font-size: 42px;
+  color: #012a93;
+  text-shadow: -1px -2px 0 red,
+    -2px -4px 0 red,
+    -3px -6px 0 red,
+    -4px -8px green,
+    -5px -10px green,
+    -6px -12px green;
+}
+
+#rainbow {
+  font-family: 'Itim', cursive;
+  font-size: 44px;
+  color: #666;
+  text-shadow: 
+    0 0 1px #666,
+    -1px 2px 2px #ff4b4b,
+    -2px 4px 2px #ff4b4b,
+    -3px 6px 2px #ff4b4b,
+    -4px 8px 2px #ff8f35,
+    -5px 10px 2px #ff8f35,
+    -6px 12px 2px #ff8f35,
+    -7px 14px 2px #fff55c,
+    -8px 16px 2px #fff55c,
+    -9px 18px 2px #fff55c,
+    -10px 20px 2px #a5ff76,
+    -11px 22px 2px #a5ff76,
+    -12px 24px 2px #a5ff76,
+    -13px 26px 2px #5ca4ff,
+    -14px 28px 2px #5ca4ff,
+    -15px 30px 2px #5ca4ff,
+    -16px 32px 2px #5c66ff,
+    -17px 34px 2px #5c66ff,
+    -18px 36px 2px #5c66ff,
+    -19px 38px 2px violet,
+    -20px 40px 2px violet,
+    -21px 42px 2px violet;
+}
+
+#stencil {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 38px;
+  text-shadow: -5px -3px #b1b1b1,
+    5px 3px #8e8d8d;
+}
+
+#cloud {
+  font-family: 'Chewy', cursive;
+  font-size: 38px;
+  color: #1a237e;
+  text-shadow: 2px 2px #2196f3,
+    -2px -2px #2196f3,
+    2px -2px #2196f3,
+    -2px 2px #2196f3,
+    5px 5px #90caf9,
+    -5px -5px #90caf9,
+    -5px 5px #90caf9,
+    5px -5px #90caf9,
+    8px 8px #e3f2fd,
+    -8px -8px #e3f2fd,
+    -8px 8px #e3f2fd,
+    8px -8px #e3f2fd;
+}
+
+#fourth {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+  text-shadow: 1px 1px rgb(56, 142, 60, .5),
+    2px 2px rgb(56, 142, 60, .5),
+    3px 3px rgb(56, 142, 60, .5),
+    4px 4px rgb(56, 142, 60, .5),
+    5px 5px 5px rgb(56, 142, 60, .5),
+    -1px -1px rgb(212, 225, 87, .5),
+    -2px -2px rgb(212, 225, 87, .5),
+    -3px -3px rgb(212, 225, 87, .5),
+    -4px -4px rgb(212, 225, 87, .5),
+    -5px -5px 5px rgb(212, 225, 87, .5),
+    1px -1px rgb(38, 198, 218, .5),
+    2px -2px rgb(38, 198, 218, .5),
+    3px -3px rgb(38, 198, 218, .5),
+    4px -4px rgb(38, 198, 218, .5),
+    5px -5px 5px rgb(38, 198, 218, .5),
+    -1px 1px rgb(30, 136, 229, .5),
+    -2px 2px rgb(30, 136, 229, .5),
+    -3px 3px rgb(30, 136, 229, .5),
+    -4px 4px rgb(30, 136, 229, .5),
+    -5px 5px 5px rgb(30, 136, 229, .5)
+}

@@ -1,0 +1,89 @@
+body {
+ background-color: #cad4db !important;
+ margin: 5vh 0vw;
+}
+
+[class*="btn-arrow-hvr"] {
+ text-align: center;
+ margin: 25px 0;
+}
+
+[class*="btn-arrow-hvr"] a {
+ position: relative;
+ display: inline-block;
+ padding: .8em 1em .6em 1em;
+ border-style: solid;
+ border-width: 2px;
+ font-family: 'Catamaran', sans-serif;
+ font-size: 15px;
+ font-weight: 600;
+ line-height: 1;
+ text-decoration: none;
+ text-transform: uppercase;
+ transition: all .2s;
+}
+
+[class*="btn-arrow-hvr"] a:hover {
+ padding: .8em 2em .6em 1em;
+}
+
+[class*="btn-arrow-hvr"] a::after {
+ position: relative;
+ left: 50%;
+ font-family: FontAwesome;
+ content: "\f105";
+ display: inline-block;
+ font-size: 28px;
+ line-height: .5;
+ width: 28px;
+ text-align: center;
+ margin-left: -1em;
+ opacity: 0;
+ transition: all .2s;
+}
+
+[class*="btn-arrow-hvr"] a:hover::after {
+ margin-left: .1em;
+ opacity: 1;
+}
+
+.btn-arrow-hvr-white a {
+ color: #fff;
+ background-color: transparent;
+ border-color: #fff;
+}
+
+.btn-arrow-hvr-white a:hover {
+ background-color: rgba(255, 255, 255, .2);
+ border-color: transparent;
+}
+
+.btn-arrow-hvr-c1 a {
+ color: #4E7187;
+ background-color: transparent;
+ border-color: #4E7187;
+}
+
+.btn-arrow-hvr-c1 a:hover {
+ background-color: rgba(0, 0, 0, .05);
+ border-color: transparent;
+
+}
+.btn-arrow-hvr-white{
+	position:relative;
+	left: 30%;
+}
+.btn-arrow-hvr-white1{
+	position:relative;
+	left: 10%;
+}
+.btn-arrow-hvr-white1 a {
+ color: #fff;
+ background-color: transparent;
+ border-color: #fff;
+}
+
+.btn-arrow-hvr-white1 a:hover {
+ background-color: rgba(255, 255, 255, .2);
+ border-color: transparent;
+}

@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn .play,
+.btn .pause {
+  position: absolute;
+  top: 0;html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn .play,
+.btn .pause {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 35px;
+}
+
+.pause {
+  display: none;
+}
+
+.control-btn {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.is-playing .play {
+  display: none;
+}
+
+.is-playing .pause {
+  display: block;
+}
+
+  left: 0;
+  bottom: 0;
+  right: 0;
+  font-size: 35px;
+}
+
+.pause {
+  display: none;
+}
+
+.control-btn {
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.is-playing .play {
+  display: none;
+}
+
+.is-playing .pause {
+  display: block;
+}
